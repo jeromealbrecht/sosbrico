@@ -1,0 +1,85 @@
+.hades {
+    height: 75px;
+    background-color: #EAEAEE;
+}
+
+.no-gutter>[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.fontdelta {
+    color: #33958f;
+    font-size: 30px;
+}
+
+.fontdeltamin {
+    color: #33958f;
+    font-size: 18px;
+    width: 105px;
+}
+
+.marge {
+    float: right;
+    margin-top: 0px;
+    color: #33958f;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 376px) {
+
+    .bye {
+        display: none;
+    }
+    .none {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 415px) {
+
+    .bye {
+        display: none;
+    }
+    .none {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+
+    .bye {
+        display: none;
+    }
+    .none {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) {
+
+    .none2 {
+        display: none;
+    }
+    
+}
+
+.no-padding>[class*='col-sm'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.butcolor{
+    background-color: #EAEAEE;
+}
+
+.onche {
+
+    height: 500px;
+}
+.centre{
+    justify-content: center;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../demo/css/style.css">
+    <title>démo grid (ou bootstrap)</title>
+</head>
+
+<body>
+
+
+
+    <!--Bandeau du site -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 none hades">
+
+            </div>
+            <div class="col-sm-7 hades">
+                <span class="fontdelta">Delta Informatique<br></span>
+                <span class="fontdeltamin ">& téléphonie</span>
+                <span class="marge">Contact: 06.55.55.55.55</span>
+
+            </div>
+            <div class="col-sm-3 none hades">
+
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar Sticky -->
+    <nav class="navbar sticky-top navbar-dark col-sm-12 bg-dark">
+        <a class="navbar-brand" href="#!">Ordinateurs</a>
+        <a class="navbar-brand" href="#!">Smartphones</a>
+        <a class="navbar-brand none" href="#!">SAV</a>
+    </nav>
+
+    <!-- Image Desktop -->
+    <div class="col-sm-12 no-padding d-flex justify-content-center">
+        <img class="image none" src="../demo/img/ecransite.jpg" alt="Profil dépannage info">
+
+    </div>
+
+    <!-- Image Mobile -->
+    <div class="col-sm-12 no-padding d-flex justify-content-center">
+        <img class="none2" src="../demo/img/mobile.JPG" alt="Profil dépannage info">
+
+    </div>
+
+    <!--Titre h1-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-12 no-padding d-flex justify-content-center mt-4">
+                <h1 class="centre">Quels appareils avez vous besoin de réparer ?</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Button version desktop-->
+    <div class="contenair-fluid bg-primary no-padding">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center mt-3">
+
+                <div class="col-sm-3 no-padding d-flex justify-content-center mt-2">
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" id="btn1" class="btn none bg-dark text-white">Réparation Express</button>
+
+
+                    </div>
+                </div>
+                <div class="col-sm-4 no-padding d-flex justify-content-center mt-2">
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" class="btn bg-dark none text-white">Garantie 1 An</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 no-padding d-flex justify-content-center mt-2">
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" class="btn bg-dark none text-white">Experts Certifiés</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Button version mobile-->
+    <div class="col-sm-12">
+        <div class="no-padding d-flex justify-content-center mt-2">
+            <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                <button type="button" class="btn none2 bg-dark text-white">Réparation Express</button>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
