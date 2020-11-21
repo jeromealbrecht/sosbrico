@@ -31,10 +31,16 @@
     .bye {
         display: none;
     }
+
     .none {
         display: none;
     }
-    
+
+    .none3{
+
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (max-width: 415px) {
@@ -42,10 +48,11 @@
     .bye {
         display: none;
     }
+
     .none {
         display: none;
     }
-    
+
 }
 
 @media screen and (max-width: 769px) {
@@ -53,10 +60,11 @@
     .bye {
         display: none;
     }
+
     .none {
         display: none;
     }
-    
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -64,7 +72,7 @@
     .none2 {
         display: none;
     }
-    
+
 }
 
 .no-padding>[class*='col-sm'] {
@@ -72,7 +80,7 @@
     padding-left: 0;
 }
 
-.butcolor{
+.butcolor {
     background-color: #EAEAEE;
 }
 
@@ -80,6 +88,11 @@
 
     height: 500px;
 }
-.centre{
+
+.centre {
     justify-content: center;
+}
+
+.font {
+    font-family: 'Raleway', sans-serif;
 }

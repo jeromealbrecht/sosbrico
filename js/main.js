@@ -1,15 +1,15 @@
-let btn1 = document.getElementById("btn1");
+let btn2 = document.getElementById("btn2");
 
-btn1.addEventListener("mouseover", function (event) {
+btn2.addEventListener("mouseover", function (event) {
     // on met l'accent sur la cible de mouseenter
-    btn1.style.backgroundColor = "white";
-    btn1.style.color = "white";
-    btn1.innerHTML = "Coucou !";
+    btn2.style.backgroundColor = "white";
+    btn2.style.color = "white";
+    btn2.innerHTML = "Au meilleur prix !";
     
-}, false);
+});
 
-btn1.addEventListener("mouseout", function (event) {
-    btn1.style.backgroundColor = "";
-    btn1.style.color = "black";
-    btn1.innerHTML = "Réparation Express";
+btn2.addEventListener("mouseout", function (event) {
+    btn2.style.backgroundColor = "";
+    btn2.style.color = "black";
+    btn2.innerHTML = "Garantie 1 an";
 });
